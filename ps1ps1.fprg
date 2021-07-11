@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="haqno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 07:05:36 PM"/>
+        <attribute name="created" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMDg7MDQ6Mzg6MjYgUE07Mjg4Ng=="/>
+        <attribute name="edited" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDc6MDU6MzYgUE07MjsyOTg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="one" type="Integer" array="False" size=""/>
+            <declare name="two" type="Integer" array="False" size=""/>
+            <declare name="add" type="Integer" array="False" size=""/>
+            <declare name="subtract" type="Integer" array="False" size=""/>
+            <declare name="multiply" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number&quot;" newline="True"/>
+            <input variable="one"/>
+            <output expression="&quot;Enter another number&quot;" newline="True"/>
+            <input variable="two"/>
+            <assign variable="add" expression="One + two"/>
+            <assign variable="subtract" expression="one - two"/>
+            <assign variable="multiply" expression="one * two"/>
+            <output expression="&quot;Your numbers addded is&quot; &amp; add &amp; &quot;Your numbers subtracted is&quot; &amp; subtract &amp; &quot;Your number multiplyed is&quot; &amp; multiply" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

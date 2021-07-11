@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="haqno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 07:04:08 PM"/>
+        <attribute name="created" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDY6NTU6MzYgUE07Mjg4MQ=="/>
+        <attribute name="edited" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDc6MDQ6MDggUE07MTsyOTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="total" type="Real" array="False" size=""/>
+            <declare name="iP" type="Integer" array="False" size=""/>
+            <declare name="tax" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the amount of an item purchased&quot;" newline="True"/>
+            <input variable="iP"/>
+            <assign variable="tax" expression="iP * .07"/>
+            <assign variable="total" expression="iP + tax"/>
+            <output expression="&quot;your tax is = &quot; &amp; tax" newline="True"/>
+            <output expression="&quot; your total is =&quot; &amp; total" newline="True"/>
+            <output expression="&quot;your item purchased is = &quot; &amp; iP" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

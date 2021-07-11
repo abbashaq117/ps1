@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="haqno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 05:48:19 PM"/>
+        <attribute name="created" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDU6Mjc6MzggUE07Mjg4MQ=="/>
+        <attribute name="edited" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDU6NDg6MTkgUE07MTsyOTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="milesTravled" type="Integer" array="False" size=""/>
+            <declare name="gallonsUsed" type="Integer" array="False" size=""/>
+            <output expression="&quot;milestravled&quot;" newline="True"/>
+            <input variable="milesTravled"/>
+            <output expression="&quot;usedGallons&quot;" newline="True"/>
+            <input variable="gallonsUsed"/>
+            <output expression="&quot;per gallon&quot; &amp; milesTravled/gallonsUsed" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

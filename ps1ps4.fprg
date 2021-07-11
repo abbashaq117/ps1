@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="haqno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 06:54:23 PM"/>
+        <attribute name="created" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDU6NTA6NTEgUE07Mjg3Mg=="/>
+        <attribute name="edited" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDY6NTQ6MjMgUE07MTsyOTg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="amountOfAMeal" type="Integer" array="False" size=""/>
+            <declare name="tip" type="Integer" array="False" size=""/>
+            <output expression="&quot;amountOfAmeal&quot;" newline="True"/>
+            <input variable="amountOfAMeal"/>
+            <output expression="&quot;tip&quot;" newline="True"/>
+            <input variable="tip"/>
+            <output expression="&quot;Tip at 15%&quot; &amp; amountOfAMeal* 0.15" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

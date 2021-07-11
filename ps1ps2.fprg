@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="haqno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-07-10 07:04:57 PM"/>
+        <attribute name="created" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDU6MTM6MzEgUE07Mjg2OQ=="/>
+        <attribute name="edited" value="aGFxbm87REVTS1RPUC0yQUtRM09QOzIwMjEtMDctMTA7MDc6MDQ6NTcgUE07MzsyOTg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="scoreOne" type="Integer" array="False" size=""/>
+            <declare name="scoreTwo" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter score one&quot;" newline="True"/>
+            <input variable="scoreOne"/>
+            <output expression="&quot;enter score two&quot;" newline="True"/>
+            <input variable="scoreTwo"/>
+            <output expression="&quot;averge: &quot; &amp; (scoreOne + scoreTwo) / 2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
